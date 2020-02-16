@@ -12,7 +12,7 @@ end
 
 def current_player(board)
   num = turn_count(board) 
-  if num % 2 == 0
+  if nunm.even?
     puts O
   else 
     puts X
