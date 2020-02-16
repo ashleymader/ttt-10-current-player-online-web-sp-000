@@ -8,7 +8,7 @@ end
 def current_player
   if turn_count(board).even?
     puts O 
-  else 
+  else turn_count(board).odd?
     puts X
   end
 end 
