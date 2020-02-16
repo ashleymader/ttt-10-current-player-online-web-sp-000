@@ -11,7 +11,7 @@ end
 def current_player
   if turn_count(board) % 2 == 0
     puts O 
-  else turn_count(board).odd? == true
+  else 
     puts X
   end
 end 
