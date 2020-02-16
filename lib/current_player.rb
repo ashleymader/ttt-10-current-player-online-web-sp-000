@@ -1,6 +1,6 @@
 def turn_count(board)
   counter = 0 
-  if puts X or O 
+  if board 
   counter += 1 
 end
 end
