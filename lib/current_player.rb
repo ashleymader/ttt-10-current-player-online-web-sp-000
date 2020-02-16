@@ -1,6 +1,6 @@
 def turn_count(board)
   counter = 0 
-  if board[index]
+  if board[index] == "X" || 
   counter += 1 
   end
 end
